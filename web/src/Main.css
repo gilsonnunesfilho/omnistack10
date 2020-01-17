@@ -1,0 +1,13 @@
+main {
+	flex: 100 0 20rem;
+	padding: 1rem;
+}
+
+main ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-gap: 2rem;
+	grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+}
