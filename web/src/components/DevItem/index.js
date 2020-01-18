@@ -13,7 +13,7 @@ function DevItem({ dev }) {
                 <p>{dev.techs.join(', ')}</p>
             </header>
             <p>{dev.bio}</p>
-            <a href={`https://github.com/${dev.github_username}`}>
+            <a href={`https://github.com/${dev.github_username}`} target="_blank">
                 Acessar perfil no Github
             </a>
         </li>
